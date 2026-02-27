@@ -1,19 +1,31 @@
 # Claude Audit Log
 
 **Audited:** 2026-02-26
-**Bucket:** [ARCHIVE]
+**Bucket:** [AGENT-REPLACE]
+**Status:** In Transition
 
 ## What This Was
-Bunting Magnetics tool — likely a single-purpose app for a specific Bunting workflow
+BuntingGPT date-based presentations — auto-generated slide decks
 
-## Job To Be Done
-Bunting-specific: General purpose / unclear
+## Current State
+Function replaceable by agent — last pushed 2025-04-16
 
 ## Agent Replacement
-N/A
+**Agent Name:** PENDING
+**Lives On:** Maggie or Pete VPS (to be determined during build)
+**Orchestrator:** n8n workflow → ORC `pdf` skill
+**Endpoint or Trigger:** PENDING
+**Supabase Table:** N/A
 
-## What To Extract
-N/A
+## Handoff Notes
+Core function: Generate date-range slides for production reporting. Recommended replacement: n8n workflow → ORC `pdf` skill. Verify at https://orc.gp3.app/skills before building anything new.
+
+## Dependencies
+- None identified — check package.json for specifics
+
+## Last Known Working State
+2025-04-16
 
 ## Claude's Notes
-- Bunting-specific — check if ORC handles this before final archive.
+- Bunting-specific — verify ORC handles this function before retiring.
+- Agent replacement not yet built. This is a backlog item for the GP3 platform team.
